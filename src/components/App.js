@@ -16,7 +16,6 @@ class App extends Component {
         <Header
           text={this.state.headerText}
         />
-        {currentView}
       </div>
     );
   }
