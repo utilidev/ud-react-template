@@ -13,15 +13,15 @@ npm install
 ```bash
 npm run dev-server
 ```
-###OR
+### OR
 
 #### Run tests
 ```bash
 npm test
 ```
-#Start hacking!
+# Start hacking!
 
-####For prod build
+#### For prod build
 ```bash
 npm run build
 ```
