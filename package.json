@@ -4,7 +4,7 @@
   "description": "A basic template for react web applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watchAll",
     "dev-server": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
