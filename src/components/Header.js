@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Header = props => {
 
@@ -7,6 +8,10 @@ const Header = props => {
         <h1 className="tx-light">{props.text}</h1>
     </div>
   );
+};
+
+Header.PropTypes = {
+  text: PropTypes.string.isRequired
 };
 
 export default Header;

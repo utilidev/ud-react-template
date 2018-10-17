@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Body = props => {
 
@@ -9,6 +10,10 @@ const Body = props => {
       </div>
     </div>
   );
+};
+
+Body.propTypes = {
+  text: PropTypes.string.isRequired
 };
 
 export default Body;
