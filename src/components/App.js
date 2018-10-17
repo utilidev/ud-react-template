@@ -13,13 +13,15 @@ class App extends Component {
   }
 
   render() {
+    const { headerText, bodyText } = this.state;
+
     return (
       <div>
         <Header
-          text={this.state.headerText}
+          text={headerText}
         />
         <Body
-          text={this.state.bodyText}
+          text={bodyText}
         />
       </div>
     );
