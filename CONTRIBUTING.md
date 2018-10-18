@@ -7,7 +7,7 @@ Please be kind and respectful to others.
 ## How to prepare
 
 * You need a [GitHub account](https://github.com/signup/free)
-* Submit an [issue ticket](https://github.com/utilidev/ud-react-template/issues) for your issue if there is no one yet.
+* Submit an [issue ticket](https://github.com/utilidev/ud-react-template/issues) for your issue if there is not one yet.
 	* Describe the issue and include steps to reproduce if it's a bug.
 	* Ensure to mention the earliest version that you know is affected.
 * If you are able and want to fix this, fork the repository on GitHub.
@@ -26,8 +26,8 @@ Please be kind and respectful to others.
 
 ## Submit Changes
 
-* Push your changes to an issue branch (see above) in your fork of the repository.
-* Open a pull request to the original repository and choose the right original branch you want to patch.
+* Push your changes to an issue branch (see above) in your fork of the repository (e.g. `git push origin is-22`).
+* Open a pull request to the original repository and choose the master branch.
 * If not done in commit messages (which you really should do) please reference and update your issue with the code changes. But _please do not close the issue yourself_.
 * Even if you have write access to the repository, do not directly push or merge pull-requests. Let another team member review your pull request and approve.
 
