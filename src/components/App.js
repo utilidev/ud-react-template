@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./Header.js";
+import Body from "./Body.js";
 import "../base-styles/base-styles.css";
 
 class App extends Component {
@@ -7,14 +8,20 @@ class App extends Component {
     super(props);
     this.state = {
       headerText: "Header",
+      bodyText: "Body",
     };
   }
 
   render() {
+    const { headerText, bodyText } = this.state;
+
     return (
       <div>
         <Header
-          text={this.state.headerText}
+          text={headerText}
+        />
+        <Body
+          text={bodyText}
         />
       </div>
     );
