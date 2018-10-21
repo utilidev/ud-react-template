@@ -64,3 +64,40 @@ p {
   height: 20px;
   padding: 2px;
 }
+
+.left {
+  float: left;
+}
+
+/* menu */
+nav {
+  overflow: hidden;
+  padding-left: 15px;
+}
+
+nav>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+nav>ul>li {
+  float: left;
+}
+
+nav>ul>li a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+}
+
+nav>ul>li a:hover {
+  background-color: #111;
+}
+
+nav>ul>li.active {
+  background-color: #555;
+}
