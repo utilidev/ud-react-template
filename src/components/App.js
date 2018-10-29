@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Header from "./Header.js";
-import Body from "./Body.js";
+import Header from "./Header/Header.js";
+import Body from "./Body/Body.js";
 import "../base-styles/base-styles.css";
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     super(props);
     this.state = {
       headerText: "Header",
-      bodyText: "Body",
+      bodyText: "Body"
     };
   }
 
@@ -17,12 +17,8 @@ class App extends Component {
 
     return (
       <div>
-        <Header
-          text={headerText}
-        />
-        <Body
-          text={bodyText}
-        />
+        <Header text={headerText} />
+        <Body text={bodyText} />
       </div>
     );
   }
