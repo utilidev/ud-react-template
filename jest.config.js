@@ -1,6 +1,6 @@
 module.exports = {
-  setupFiles: ["<rootDir>/tests/setup.js"],
-  roots: ["<rootDir>/src/components", "<rootDir>/tests/components/"],
+  setupFiles: ["<rootDir>/jest.setup.js"],
+  roots: ["<rootDir>/src/components"],
   //watch: true,
   verbose: true,
   bail: true
