@@ -6,7 +6,7 @@ const Body = props => {
     <div className="bg-light">
       <div className="body">
         <p className="tx-dark">{props.text}</p>
-        <p className="tx-dark">These links may be helpful:</p>
+        <h2 className="tx-dark">These links may be helpful:</h2>
         <a href="https://reactjs.org/docs/getting-started.html">
           React Documention
         </a>
