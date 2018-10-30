@@ -6,13 +6,25 @@ const Body = props => {
     <div className="bg-light">
       <div className="body">
         <p className="tx-dark">{props.text}</p>
-        <h2 className="tx-dark">These links may be helpful:</h2>
-        <a href="https://reactjs.org/docs/getting-started.html">
-          React Documention
-        </a>
-        <a href="https://webpack.js.org/concepts/">Webpack Documention</a>
-        <a href="https://babeljs.io/docs/en/">Babel Documention</a>
-        <a href="https://jestjs.io/docs/en/getting-started">Jest Documention</a>
+        <h3 className="tx-dark">These links may be helpful:</h3>
+        <ul className="doc-links">
+          <li>
+            <a href="https://reactjs.org/docs/getting-started.html">
+              React Documention
+            </a>
+          </li>
+          <li>
+            <a href="https://webpack.js.org/concepts/">Webpack Documention</a>
+          </li>
+          <li>
+            <a href="https://babeljs.io/docs/en/">Babel Documention</a>
+          </li>
+          <li>
+            <a href="https://jestjs.io/docs/en/getting-started">
+              Jest Documention
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );
