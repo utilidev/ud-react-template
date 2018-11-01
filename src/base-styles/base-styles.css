@@ -64,3 +64,13 @@ p {
   height: 20px;
   padding: 2px;
 }
+
+.doc-links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.doc-links li {
+  margin: 3px 0px;
+}
