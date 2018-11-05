@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Body = props => {
   return (
-    <div className="bg-light">
+    <div className="bg-light fill-height">
       <div className="body">
         <p className="tx-dark">{props.text}</p>
         <h3 className="tx-dark">These links may be helpful:</h3>

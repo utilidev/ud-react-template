@@ -7,8 +7,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      headerText: "Header",
-      bodyText: "Body"
+      headerText: "Utilidev React Template",
+      bodyText: "Get Hacking!"
     };
   }
 
@@ -16,7 +16,7 @@ class App extends Component {
     const { headerText, bodyText } = this.state;
 
     return (
-      <div>
+      <div className="fill-height">
         <Header text={headerText} />
         <Body text={bodyText} />
       </div>
